@@ -114,7 +114,7 @@ postgresql:
   imageTag: "9.6.11"
   postgresDatabase: "xraydb"
   postgresUser: "xray"
-  postgresPassword:
+  postgresPassword: "xray"
   postgresConfig:
     maxConnections: "500"
   service:
@@ -158,7 +158,7 @@ mongodb:
   - "--wiredTigerCacheSizeGB=1"
   mongodbRootPassword:
   mongodbUsername: xray
-  mongodbPassword:
+  mongodbPassword: xray
   mongodbDatabase: xray
 #  livenessProbe:
 #    initialDelaySeconds: 60
