@@ -145,9 +145,9 @@ mongodb:
   persistence:
     size: 50Gi
   resources: {}
-    requests:
-      memory: "12Gi"
-      cpu: "2"
+  requests:
+    memory: "12Gi"
+    cpu: "2"
     limits:
       memory: "12Gi"
       cpu: "3"
