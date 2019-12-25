@@ -331,7 +331,7 @@ missionControl:
   service:
     type: LoadBalancer
   internalPort: 8080
-  externalPort: 80
+  externalPort: 90
 
 
 insightServer:
